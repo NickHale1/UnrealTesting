@@ -710,3 +710,672 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.06-21.17.53:619][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.05.06-21.17.53:660][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2022.05.06-21.19.43:457][916]LogDerivedDataCache: C:/Users/runes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.103 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.06-21.29.50:984][393]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: GetPartitionedActors took 71 us
+[2022.05.06-21.29.50:992][393]LogWorldPartition: Display: GenerateStreaming took 397 us
+[2022.05.06-21.29.50:993][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-21.29.50:993][393]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 1:29:50 PM)
+[2022.05.06-21.29.50:996][393]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.05.06-21.29.50:996][393]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.06-21.29.50:996][393]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.29.51:006][393]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-21.29.51:006][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009664s)
+[2022.05.06-21.29.51:006][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009736s)
+[2022.05.06-21.29.51:006][393]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-21.29.51:007][393]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-21.29.51:007][393]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-21.29.51:007][393]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-21.29.51:010][393]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.06-21.29.51:010][393]LogPlayLevel: PIE: World Init took: (0.003518s)
+[2022.05.06-21.29.51:019][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.06-21.29.51:020][393]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-21.29.51:020][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-21.29.51:021][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-21.29.51:021][393]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-21.29.51:021][393]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-21.29.51:021][393]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-21.29.51:022][393]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-21.29.51:103][393]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-21.29.51:104][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-21.29.51:104][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-21.29.51:104][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-21.29.51:106][393]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.05.06-21.29.51:106][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.05.06-21.29.51:107][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.05.06-21.29.51:107][393]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.05.06-21.29.51:107][393]LogInit: FAudioDevice initialized.
+[2022.05.06-21.29.51:107][393]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2022.05.06-21.29.51:117][393]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-21.29.51:120][393]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-17.29.51
+[2022.05.06-21.29.51:120][393]LogWorld: Bringing up level for play took: 0.002776
+[2022.05.06-21.29.51:122][393]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.05.06-21.29.51:146][393]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-21.29.51:146][393]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.29.51:146][393]PIE: Server logged in
+[2022.05.06-21.29.51:147][393]PIE: Play in editor total start time 0.158 seconds.
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: URL: C:\Users\runes\AppData\Local/Programs/Git/cmd/git.exe version
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:280][339]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: URL: C:\Users\runes\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.30.42:281][339]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2022.05.06-21.32.00:843][ 12]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2022.05.06-21.32.00:843][ 12]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2022.05.06-21.32.06:557][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:557][368]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:\Users\runes\AppData\Local/Programs/Git/cmd/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:\Users\runes\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2022.05.06-21.32.06:558][368]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2022.05.06-21.32.18:956][913]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2022.05.06-21.32.18:956][913]LogWindows: Warning: URL: D:/UE_5.0/Engine/Binaries/Win64/ version
+[2022.05.06-21.38.00:910][964]LogSlate: Window 'Source Control Login' being destroyed
+[2022.05.06-21.38.21:674][269]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:675][269]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.21:771][269]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.38.28:297][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.38.28:297][540]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.38.28:298][540]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-21.38.28:298][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.38.28:319][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-21.38.28:321][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.38.28:331][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-21.38.28:332][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.05.06-21.38.28:334][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.05.06-21.38.28:341][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.38.28:344][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.06-21.38.28:410][541]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.05.06-21.38.29:021][543]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.06-21.38.33:846][737]Cmd: EDIT COPY
+[2022.05.06-21.38.34:678][778]Cmd: EDIT PASTE
+[2022.05.06-21.38.39:279][995]Cmd: SELECT NONE
+[2022.05.06-21.38.44:113][203]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:113][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:114][203]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.38.44:199][203]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.38.55:262][645]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.004910 seconds
+[2022.05.06-21.38.55:270][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY
+[2022.05.06-21.38.55:270][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MOB1XNBOIWCD0FRZ1G4NUYF84F08C24F1A3CA1C501559A781D6D7B.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY.uasset'
+[2022.05.06-21.38.55:278][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM
+[2022.05.06-21.38.55:278][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/90U99CMEG3X969DGLIKCXM989DA8F346B0E17381A53DBEA2307A33.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM.uasset'
+[2022.05.06-21.38.55:285][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT
+[2022.05.06-21.38.55:286][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/J0S4S49B3G5Q1CBEICYVJTE45B9703465FBB67C8FAEEB89F28733A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT.uasset'
+[2022.05.06-21.38.55:293][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS
+[2022.05.06-21.38.55:293][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MJWKJ5N2XFCJOGCTDDX5TS9C7ACF1441A8EF018EB7129AB1919668.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS.uasset'
+[2022.05.06-21.38.55:300][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV
+[2022.05.06-21.38.55:301][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/CXPBMNOSZQRYYMLHTQSQIVBC0B2E694368AF4D02AEB6AA344D333A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV.uasset'
+[2022.05.06-21.38.55:337][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N
+[2022.05.06-21.38.55:338][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MVMWJBFEEBVGDKJCRYQ03N780729D443F7FA40FD811BB24E94A100.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N.uasset'
+[2022.05.06-21.38.55:345][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO
+[2022.05.06-21.38.55:345][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/TMA3DO1U972O1ENU52NTRO18FF717E4AD507284C560E9AD124B4F3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO.uasset'
+[2022.05.06-21.38.55:353][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49
+[2022.05.06-21.38.55:353][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/XC4O0JHF1H6RSJ5PHWBB49DE60CF0344E8576AA24643856C0AD108.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49.uasset'
+[2022.05.06-21.38.55:355][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/D1/BCYCVIBLVC7P33FQR6H329
+[2022.05.06-21.38.55:356][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/BCYCVIBLVC7P33FQR6H329988471EC4B70071EB6F6C0BD1B21F011.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/D1/BCYCVIBLVC7P33FQR6H329.uasset'
+[2022.05.06-21.38.55:366][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/OY/UC0RVGW8BQPAOFLMD59TFP
+[2022.05.06-21.38.55:367][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UC0RVGW8BQPAOFLMD59TFPD422B8A946880CDF9636AD912925ABD7.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/OY/UC0RVGW8BQPAOFLMD59TFP.uasset'
+[2022.05.06-21.38.55:369][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F4/G5QUJKSF6WDZGVF174INBV
+[2022.05.06-21.38.55:369][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/G5QUJKSF6WDZGVF174INBVF2E84E29453997B197D28B8C8BD99A40.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F4/G5QUJKSF6WDZGVF174INBV.uasset'
+[2022.05.06-21.38.55:371][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/1Q/4KX60JAENEGJ1YAO14SGW2
+[2022.05.06-21.38.55:371][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/4KX60JAENEGJ1YAO14SGW2413F944240643907E7A45F9E3E6E997B.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/1Q/4KX60JAENEGJ1YAO14SGW2.uasset'
+[2022.05.06-21.38.55:373][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KF/Z2E5Y4MOVGVHMIJCF52A4X
+[2022.05.06-21.38.55:373][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Z2E5Y4MOVGVHMIJCF52A4XCE353BFB4742C9D6354CCB98E8DB377E.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KF/Z2E5Y4MOVGVHMIJCF52A4X.uasset'
+[2022.05.06-21.38.55:375][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/RA/6RYFW9EOW8J5S9ZXOPC016
+[2022.05.06-21.38.55:375][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/6RYFW9EOW8J5S9ZXOPC016B0595B0C49A587C717401AAED366D173.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/RA/6RYFW9EOW8J5S9ZXOPC016.uasset'
+[2022.05.06-21.38.55:420][645]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ML/NRNH6YWTBYWXMMCVY3GJ7T
+[2022.05.06-21.38.55:420][645]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/NRNH6YWTBYWXMMCVY3GJ7TE343732843AEEE0B03A8D8A5FE6B1D7A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ML/NRNH6YWTBYWXMMCVY3GJ7T.uasset'
+[2022.05.06-21.38.56:632][645]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_3_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_1_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_0_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_0_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_1_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_3_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating LandscapeStreamingProxy /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374561917
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374560916
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374560915
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374560914
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374559913
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating GroupActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.GroupActor_UAID_BC542FADF2B84A0D01_1374559912
+[2022.05.06-21.38.56:632][645]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1374558911
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:481][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:482][812]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.39.00:567][812]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.39.08:782][203]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.39.08:808][203]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.39.56:177][215]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.39.56:202][215]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.40.03:513][540]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.40.05:306][632]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.40.07:179][726]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.40.07:205][726]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.40.09:150][812]Cmd: DELETE
+[2022.05.06-21.40.09:150][812]Cmd: ACTOR DELETE
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Cylinder13.
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Cylinder14.
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Cylinder15.
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Cylinder16.
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Disc5.
+[2022.05.06-21.40.09:152][812]LogEditorActor: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by Cylinder17.
+[2022.05.06-21.40.10:919][812]LogSlate: Window 'Message' being destroyed
+[2022.05.06-21.40.10:925][812]Message dialog closed, result: Yes, title: Message, text: Actor GroupActor_UAID_BC542FADF2B8430D01_2102669686 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+Cylinder13
+Cylinder14
+Cylinder15
+Cylinder16
+Disc5
+Cylinder17
+[2022.05.06-21.40.10:926][812]LogEditorActor: Deleted Actor: GroupActor
+[2022.05.06-21.40.10:926][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:927][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:927][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:927][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:927][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:927][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-21.40.10:937][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.05.06-21.40.10:939][812]LogEditorActor: Deleted 7 Actors (0.015 secs)
+[2022.05.06-21.40.13:764][939]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.40.15:155][ 10]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.40.18:659][187]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.40.18:683][187]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.23:940][432]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.24:023][432]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.40.30:827][755]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.40.30:853][755]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.40.36:199][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.05.06-21.40.36:208][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.05.06-21.40.36:216][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ML/NRNH6YWTBYWXMMCVY3GJ7T.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/RA/6RYFW9EOW8J5S9ZXOPC016.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KF/Z2E5Y4MOVGVHMIJCF52A4X.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/1Q/4KX60JAENEGJ1YAO14SGW2.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F4/G5QUJKSF6WDZGVF174INBV.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/OY/UC0RVGW8BQPAOFLMD59TFP.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.36:706][960]SourceControl: Error: error: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/D1/BCYCVIBLVC7P33FQR6H329.uasset' did not match any file(s) known to git
+[2022.05.06-21.40.37:136][960]SourceControl: Error: fatal: pathspec 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ML/NRNH6YWTBYWXMMCVY3GJ7T.uasset' did not match any files
+[2022.05.06-21.40.37:153][960]LogObjectTools: Warning: SCC failed to open the selected files for deletion.
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:631][160]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.40.41:715][160]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.41.11:735][639]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.41.11:760][639]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.44.16:004][209]LogStaticMesh: Display: Building static mesh Cylinder_1A23994E...
+[2022.05.06-21.44.16:004][209]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_1A23994E.Cylinder_1A23994E
+[2022.05.06-21.45.08:417][595]Cmd: EDIT COPY
+[2022.05.06-21.45.08:956][623]Cmd: EDIT PASTE
+[2022.05.06-21.45.16:698][  5]Cmd: EDIT COPY
+[2022.05.06-21.45.17:350][ 37]Cmd: EDIT PASTE
+[2022.05.06-21.45.24:325][368]Cmd: EDIT COPY
+[2022.05.06-21.45.25:199][410]Cmd: EDIT PASTE
+[2022.05.06-21.45.41:102][195]SourceControl: Error: warning: could not open directory 'TimNickTest 5.0/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2022.05.06-21.46.31:682][874]Cmd: EDIT COPY
+[2022.05.06-21.46.32:121][895]Cmd: EDIT PASTE
+[2022.05.06-21.46.40:375][265]Cmd: EDIT COPY
+[2022.05.06-21.46.40:939][292]Cmd: EDIT PASTE
+[2022.05.06-21.46.47:786][589]Cmd: SELECT NONE
+[2022.05.06-21.47.29:779][388]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.06-21.47.48:185][222]Cmd: EDIT COPY
+[2022.05.06-21.47.48:947][255]Cmd: EDIT PASTE
+[2022.05.06-21.47.57:573][620]Cmd: SELECT NONE
+[2022.05.06-21.48.03:825][883]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: GetPartitionedActors took 68 us
+[2022.05.06-21.48.03:834][883]LogWorldPartition: Display: GenerateStreaming took 477 us
+[2022.05.06-21.48.03:834][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-21.48.03:834][883]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 1:48:03 PM)
+[2022.05.06-21.48.03:835][883]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.48.03:847][883]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-21.48.03:847][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012060s)
+[2022.05.06-21.48.03:847][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012122s)
+[2022.05.06-21.48.03:847][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-21.48.03:847][883]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-21.48.03:848][883]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-21.48.03:848][883]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-21.48.03:851][883]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.06-21.48.03:851][883]LogPlayLevel: PIE: World Init took: (0.003903s)
+[2022.05.06-21.48.03:861][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.05.06-21.48.03:862][883]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-21.48.03:862][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-21.48.03:862][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-21.48.03:862][883]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-21.48.03:862][883]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-21.48.03:862][883]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-21.48.03:864][883]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-21.48.03:946][883]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-21.48.03:947][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-21.48.03:947][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-21.48.03:947][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-21.48.03:948][883]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.05.06-21.48.03:948][883]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.05.06-21.48.03:949][883]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.05.06-21.48.03:949][883]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.05.06-21.48.03:949][883]LogInit: FAudioDevice initialized.
+[2022.05.06-21.48.03:949][883]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2022.05.06-21.48.03:960][883]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-21.48.03:963][883]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-17.48.03
+[2022.05.06-21.48.03:963][883]LogWorld: Bringing up level for play took: 0.003345
+[2022.05.06-21.48.03:965][883]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2022.05.06-21.48.03:968][883]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-21.48.03:969][883]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.48.03:969][883]PIE: Server logged in
+[2022.05.06-21.48.03:970][883]PIE: Play in editor total start time 0.139 seconds.
+[2022.05.06-21.48.24:518][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.48.24:518][720]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.48.24:518][720]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-21.48.24:519][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.48.24:542][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-21.48.24:544][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.48.24:553][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-21.48.24:554][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.05.06-21.48.24:556][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.05.06-21.48.24:562][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.48.24:564][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.05.06-21.48.24:614][721]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.05.06-21.48.31:744][ 23]Cmd: EDIT COPY
+[2022.05.06-21.48.32:049][ 37]Cmd: EDIT PASTE
+[2022.05.06-21.48.38:017][321]Cmd: SELECT NONE
+[2022.05.06-21.48.46:180][687]Cmd: SELECT NONE
+[2022.05.06-21.48.49:507][839]Cmd: SELECT NONE
+[2022.05.06-21.48.54:949][ 92]Cmd: EDIT COPY
+[2022.05.06-21.48.59:459][312]Cmd: TRANSACTION UNDO
+[2022.05.06-21.48.59:459][312]LogEditorTransaction: Undo Move Elements
+[2022.05.06-21.49.00:865][364]Cmd: EDIT COPY
+[2022.05.06-21.49.01:422][390]Cmd: EDIT PASTE
+[2022.05.06-21.49.14:184][  7]Cmd: EDIT COPY
+[2022.05.06-21.49.14:664][ 33]Cmd: EDIT PASTE
+[2022.05.06-21.49.18:960][257]Cmd: SELECT NONE
+[2022.05.06-21.49.28:808][719]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-21.49.28:816][719]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Display: GetPartitionedActors took 68 us
+[2022.05.06-21.49.28:817][719]LogWorldPartition: Display: GenerateStreaming took 630 us
+[2022.05.06-21.49.28:817][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-21.49.28:817][719]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 1:49:28 PM)
+[2022.05.06-21.49.28:818][719]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.49.28:829][719]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-21.49.28:829][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011818s)
+[2022.05.06-21.49.28:829][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.011887s)
+[2022.05.06-21.49.28:829][719]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-21.49.28:830][719]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-21.49.28:830][719]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-21.49.28:830][719]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-21.49.28:833][719]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.06-21.49.28:833][719]LogPlayLevel: PIE: World Init took: (0.003828s)
+[2022.05.06-21.49.28:841][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.05.06-21.49.28:842][719]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-21.49.28:842][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-21.49.28:842][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-21.49.28:843][719]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-21.49.28:843][719]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-21.49.28:843][719]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-21.49.28:845][719]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-21.49.28:925][719]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-21.49.28:925][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-21.49.28:925][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-21.49.28:925][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-21.49.28:927][719]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.05.06-21.49.28:927][719]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.05.06-21.49.28:928][719]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.05.06-21.49.28:928][719]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.05.06-21.49.28:928][719]LogInit: FAudioDevice initialized.
+[2022.05.06-21.49.28:928][719]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.05.06-21.49.28:939][719]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-21.49.28:943][719]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-17.49.28
+[2022.05.06-21.49.28:943][719]LogWorld: Bringing up level for play took: 0.003716
+[2022.05.06-21.49.28:945][719]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2022.05.06-21.49.28:948][719]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-21.49.28:948][719]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.49.28:948][719]PIE: Server logged in
+[2022.05.06-21.49.28:949][719]PIE: Play in editor total start time 0.136 seconds.
+[2022.05.06-21.52.32:889][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.52.32:889][694]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.52.32:889][694]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-21.52.32:889][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.52.32:922][694]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-21.52.32:924][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.52.32:933][694]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-21.52.32:933][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.06-21.52.32:934][694]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.06-21.52.32:941][694]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.52.32:944][694]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.05.06-21.52.32:981][695]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.06-21.52.37:567][793]SourceControl: Error: warning: could not open directory 'TimNickTest 5.0/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2022.05.06-21.52.39:473][793]SourceControl: Error: warning: could not open directory 'TimNickTest 5.0/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/': No such file or directory
+[2022.05.06-21.52.39:549][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/UT6M8R71KXNIX4PA9H50FU
+[2022.05.06-21.52.39:549][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UT6M8R71KXNIX4PA9H50FU737FCEFA444E2D11C33C2690763686AF.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/UT6M8R71KXNIX4PA9H50FU.uasset'
+[2022.05.06-21.52.39:553][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/I6/NENK0N3LESZE6X6CFEX0VC
+[2022.05.06-21.52.39:553][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/NENK0N3LESZE6X6CFEX0VC1FF7A10C4928295D898E229609B0E4F9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/I6/NENK0N3LESZE6X6CFEX0VC.uasset'
+[2022.05.06-21.52.39:554][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/MD/DWIKW15EVXF2PMZ7FJ098H
+[2022.05.06-21.52.39:554][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/DWIKW15EVXF2PMZ7FJ098H615F062B49AA467E86A1DBBDC0706E08.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/MD/DWIKW15EVXF2PMZ7FJ098H.uasset'
+[2022.05.06-21.52.39:557][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/CQ/LZFS796N19A8MEJHWZ8KEK
+[2022.05.06-21.52.39:557][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/LZFS796N19A8MEJHWZ8KEKE26AA68140558082A788B8B1687D03F7.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/CQ/LZFS796N19A8MEJHWZ8KEK.uasset'
+[2022.05.06-21.52.39:559][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/CY/YNMQMMG3F2IQBKCOTFEL1S
+[2022.05.06-21.52.39:559][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/YNMQMMG3F2IQBKCOTFEL1S5B24681049170ECB56AADE842600B973.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/CY/YNMQMMG3F2IQBKCOTFEL1S.uasset'
+[2022.05.06-21.52.39:562][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/C4/PS95C6D83AZD2NTH6S1IKY
+[2022.05.06-21.52.39:562][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/PS95C6D83AZD2NTH6S1IKY55BDB0EA42C1FAF4ED73A2A91DDF3030.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/C4/PS95C6D83AZD2NTH6S1IKY.uasset'
+[2022.05.06-21.52.39:565][793]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/61/IFJ13E373XEMSQLDFPOVYI
+[2022.05.06-21.52.39:565][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/IFJ13E373XEMSQLDFPOVYIAE02CBE2483F68C93A5B43A68F56A009.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/61/IFJ13E373XEMSQLDFPOVYI.uasset'
+[2022.05.06-21.52.39:568][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/MP/IVPWT0XN23AEECPZVX55CL
+[2022.05.06-21.52.39:568][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/IVPWT0XN23AEECPZVX55CL7BA72B484CFEBADFF5B4E0A28996E4AA.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/MP/IVPWT0XN23AEECPZVX55CL.uasset'
+[2022.05.06-21.52.39:570][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/N8/U0YUN8UD22ZU91FIJMAGQH
+[2022.05.06-21.52.39:571][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/U0YUN8UD22ZU91FIJMAGQHB0C27BF24315FCE6E9EC7282EF2C5D25.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/N8/U0YUN8UD22ZU91FIJMAGQH.uasset'
+[2022.05.06-21.52.39:573][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/S62MCAL0FTJY0H9E0PM6VS
+[2022.05.06-21.52.39:573][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/S62MCAL0FTJY0H9E0PM6VS4846FF5B42887ECB1F29DDA84AF878E5.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/S62MCAL0FTJY0H9E0PM6VS.uasset'
+[2022.05.06-21.52.39:576][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/N7/NQLUK0Q0M9H4SDZPDRJ6KT
+[2022.05.06-21.52.39:576][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/NQLUK0Q0M9H4SDZPDRJ6KTF2BCD7484A5CFAF5DAF6FB847B097095.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/N7/NQLUK0Q0M9H4SDZPDRJ6KT.uasset'
+[2022.05.06-21.52.39:578][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/BP/0CDQ8DDIUY7ZTO2322KZ44
+[2022.05.06-21.52.39:579][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/0CDQ8DDIUY7ZTO2322KZ44020C34444C1CD0189FF0FC923CC921EC.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/BP/0CDQ8DDIUY7ZTO2322KZ44.uasset'
+[2022.05.06-21.52.39:581][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/KC/U2WS544AK9MTIGA5L6F3WV
+[2022.05.06-21.52.39:581][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/U2WS544AK9MTIGA5L6F3WVBE7752FD457E86868A0A72B1A66EA130.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/KC/U2WS544AK9MTIGA5L6F3WV.uasset'
+[2022.05.06-21.52.39:586][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/U4/W2A3EZOCZ7NA6D44M4XK4K
+[2022.05.06-21.52.39:586][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/W2A3EZOCZ7NA6D44M4XK4K3E68BB08439E1A31C4B6CC9989D08CED.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/U4/W2A3EZOCZ7NA6D44M4XK4K.uasset'
+[2022.05.06-21.52.39:588][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/TV/6OVZ77NDIHGDF0W532EFCO
+[2022.05.06-21.52.39:588][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/6OVZ77NDIHGDF0W532EFCOABEB46234A771199B668AB92C288103A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/TV/6OVZ77NDIHGDF0W532EFCO.uasset'
+[2022.05.06-21.52.39:590][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/2K/L4TJJEVZ4PGMM6ACQQ978O
+[2022.05.06-21.52.39:590][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/L4TJJEVZ4PGMM6ACQQ978O432CEC9D4DF82CCA2F5763B1DD0CD3A9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/2K/L4TJJEVZ4PGMM6ACQQ978O.uasset'
+[2022.05.06-21.52.39:593][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/1M/49DEYTCCN1N67G1CC1A93V
+[2022.05.06-21.52.39:593][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/49DEYTCCN1N67G1CC1A93V5C7F1F264572865F6C4221966AAF868A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/1M/49DEYTCCN1N67G1CC1A93V.uasset'
+[2022.05.06-21.52.39:595][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/V1/GT6OVA6QIXNBBFHH55QG1C
+[2022.05.06-21.52.39:595][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/GT6OVA6QIXNBBFHH55QG1C4610935E4CD9DBF3403690A3D4F7258B.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/V1/GT6OVA6QIXNBBFHH55QG1C.uasset'
+[2022.05.06-21.52.39:597][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/0I/T69VU3VOK6QO5ZZN146AYM
+[2022.05.06-21.52.39:597][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/T69VU3VOK6QO5ZZN146AYM02F853F64E8FF2B220FE88A61F511784.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/0I/T69VU3VOK6QO5ZZN146AYM.uasset'
+[2022.05.06-21.52.39:599][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/W0/QENQUTX93ICAFLM4Y0T6XU
+[2022.05.06-21.52.39:600][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/QENQUTX93ICAFLM4Y0T6XU8398ACEB42ECFFB518A497B5452EFF19.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/W0/QENQUTX93ICAFLM4Y0T6XU.uasset'
+[2022.05.06-21.52.39:603][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VK/8GG1K9CHGRA5VTJNB2QMJZ
+[2022.05.06-21.52.39:603][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/8GG1K9CHGRA5VTJNB2QMJZA9A87D884B85181CDC5611B68C52AFD3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VK/8GG1K9CHGRA5VTJNB2QMJZ.uasset'
+[2022.05.06-21.52.39:605][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PY/P8MRT8ZNA74G0YC1W5RUW0
+[2022.05.06-21.52.39:605][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/P8MRT8ZNA74G0YC1W5RUW0639662FF48F7E428E203D48E27B325D9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/PY/P8MRT8ZNA74G0YC1W5RUW0.uasset'
+[2022.05.06-21.52.39:608][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J4/UWPOW5CE80MPP4XRVIO0RK
+[2022.05.06-21.52.39:608][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UWPOW5CE80MPP4XRVIO0RK3395F88349AF2953497C6CA94FB19AD3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/J4/UWPOW5CE80MPP4XRVIO0RK.uasset'
+[2022.05.06-21.52.39:613][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/QZ/GC0TD2UAHMW0MY7EDJSDD7
+[2022.05.06-21.52.39:613][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/GC0TD2UAHMW0MY7EDJSDD7D430545648E933F8077F5C959B5359BD.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/QZ/GC0TD2UAHMW0MY7EDJSDD7.uasset'
+[2022.05.06-21.52.39:615][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/BM/63IBB1SOZ4JXVSWYXLG4G0
+[2022.05.06-21.52.39:615][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/63IBB1SOZ4JXVSWYXLG4G025034418474FDD8240D3D3AA721F8715.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/BM/63IBB1SOZ4JXVSWYXLG4G0.uasset'
+[2022.05.06-21.52.39:617][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/25/OAESL1896RGFV1O0KF0H6I
+[2022.05.06-21.52.39:617][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/OAESL1896RGFV1O0KF0H6IAABC2DED46D1DAAFA2B7EE80ADA51225.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/25/OAESL1896RGFV1O0KF0H6I.uasset'
+[2022.05.06-21.52.39:620][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/1O/PCGDDPXGTFGMOJVYW2D1Z4
+[2022.05.06-21.52.39:620][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/PCGDDPXGTFGMOJVYW2D1Z4C58E603D4DA24C3AC18D58844A919F95.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/1O/PCGDDPXGTFGMOJVYW2D1Z4.uasset'
+[2022.05.06-21.52.39:622][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/BT/ZVW2V75TX06H633XSLHGIE
+[2022.05.06-21.52.39:622][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/ZVW2V75TX06H633XSLHGIE3C4E1E1E452A6300176AF9B6CF3B5581.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/BT/ZVW2V75TX06H633XSLHGIE.uasset'
+[2022.05.06-21.52.39:625][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/UX/MLLI78IL9QEDFN4OTJML1S
+[2022.05.06-21.52.39:625][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MLLI78IL9QEDFN4OTJML1S554A2F904B4585FB6CE73DB75F2868F3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/UX/MLLI78IL9QEDFN4OTJML1S.uasset'
+[2022.05.06-21.52.39:628][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/I8/EX2KXUNZKIR8FA7L6C4Q4U
+[2022.05.06-21.52.39:628][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/EX2KXUNZKIR8FA7L6C4Q4U2ED6794A4E53FABBE7FC008EC21AAC65.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/I8/EX2KXUNZKIR8FA7L6C4Q4U.uasset'
+[2022.05.06-21.52.39:630][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/74/R1WUOJIA0D9CXTLCDZ58ZJ
+[2022.05.06-21.52.39:630][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/R1WUOJIA0D9CXTLCDZ58ZJEEDCB4554411C382D411D4B7314B4A7E.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/74/R1WUOJIA0D9CXTLCDZ58ZJ.uasset'
+[2022.05.06-21.52.39:632][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/YF/C138VDJCZKJ1U2TXCFH8FB
+[2022.05.06-21.52.39:632][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/C138VDJCZKJ1U2TXCFH8FB97AAD49443945F58BD3C76A70AF04442.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/YF/C138VDJCZKJ1U2TXCFH8FB.uasset'
+[2022.05.06-21.52.39:635][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/9A/VYOLSATMXOXRSO0WX7K9HE
+[2022.05.06-21.52.39:635][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/VYOLSATMXOXRSO0WX7K9HEE076393E4E1B884623741593147A8171.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/9A/VYOLSATMXOXRSO0WX7K9HE.uasset'
+[2022.05.06-21.52.39:637][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/YU/MZIUKNGJ51WKFV4PGX5961
+[2022.05.06-21.52.39:637][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MZIUKNGJ51WKFV4PGX59618E32608E4BAED205A3B9B08BFC943B49.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/YU/MZIUKNGJ51WKFV4PGX5961.uasset'
+[2022.05.06-21.52.39:642][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/RQ/HZ10UPLU527ASHZHXM9Y8X
+[2022.05.06-21.52.39:642][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/HZ10UPLU527ASHZHXM9Y8X868BF7334E44BE4DF21299BABC1ABB8F.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/RQ/HZ10UPLU527ASHZHXM9Y8X.uasset'
+[2022.05.06-21.52.39:645][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/MQ/BU6UVKBF256KN9DEQ37W7H
+[2022.05.06-21.52.39:645][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/BU6UVKBF256KN9DEQ37W7H61280F6B4CD3C89F92E15B8AB6C36E2A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/MQ/BU6UVKBF256KN9DEQ37W7H.uasset'
+[2022.05.06-21.52.39:647][793]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/55/49MYGP1W0HLS0YIG0347TS
+[2022.05.06-21.52.39:647][793]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/49MYGP1W0HLS0YIG0347TSBC5CE1924E02B4E884A1A29B734510A1.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/55/49MYGP1W0HLS0YIG0347TS.uasset'
+[2022.05.06-21.52.41:641][793]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1928826940
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1928826939
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1928826938
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1928826937
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1928825936
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860820935
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860819934
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860819933
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860819932
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860818931
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1860818930
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852002929
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852002928
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852001927
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852001926
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852000925
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1852000924
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating ActorFolder /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.ActorFolder_UID_DE04A043-472A5633-51B325B7-91014D0F
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1785078923
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1785078922
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1785077921
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1777228920
+[2022.05.06-21.52.41:641][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1768834919
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1715735918
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2014543953
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2014543952
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2014543951
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2014542950
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2001302949
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2001301948
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2001301947
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_2001300946
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1971930945
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1971929944
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1971929943
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1971928942
+[2022.05.06-21.52.41:642][793]LogContentValidation: Display: Validating StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B84A0D01_1971928941
+[2022.05.06-21.52.51:886][227]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.52.53:263][295]SourceControl: Error: Operation 'UpdateChangelistsStatus' not supported by source control provider 'Git'
+[2022.05.06-21.53.00:829][663]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.53.00:857][663]LogSlate: Window 'View Changelists' being destroyed
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Content: 'D:/UE_5.0/Engine/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Bridge/Content: 'D:/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'D:/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'D:/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/UE_5.0/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'D:/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:854][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'D:/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'D:/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:855][839]SourceControl: fatal: D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/runes/Documents/GitHub/UnrealTesting'
+[2022.05.06-21.53.04:944][839]EditorErrors: Warning: No assets to check in!
+[2022.05.06-21.53.16:944][408]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-21.53.16:972][408]LogSlate: Window 'Message Log' being destroyed
