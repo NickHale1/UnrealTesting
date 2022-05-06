@@ -1071,3 +1071,1215 @@ Cylinder17
 [2022.05.06-20.02.42:458][707]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/JNKFA4X9LRMSF343ESPF6Q_Auto2F0F7B7E146BF547FBF5289AFB0120F26.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q_Auto2.uasset'
 [2022.05.06-20.02.42:458][707]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.022
 [2022.05.06-20.02.42:458][707]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2022.05.06-20.09.29:663][228]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.09.29:670][228]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.09.29:670][228]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.09.29:670][228]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.09.29:671][228]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.09.29:671][228]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.09.29:671][228]LogWorldPartition: Display: GetPartitionedActors took 62 us
+[2022.05.06-20.09.29:671][228]LogWorldPartition: Display: GenerateStreaming took 350 us
+[2022.05.06-20.09.29:671][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.09.29:671][228]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:09:29 PM)
+[2022.05.06-20.09.29:671][228]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.09.29:677][228]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.09.29:677][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005502s)
+[2022.05.06-20.09.29:677][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005566s)
+[2022.05.06-20.09.29:677][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.09.29:677][228]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.09.29:678][228]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.09.29:678][228]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.09.29:679][228]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-20.09.29:679][228]LogPlayLevel: PIE: World Init took: (0.002425s)
+[2022.05.06-20.09.29:687][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.05.06-20.09.29:688][228]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.09.29:688][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.09.29:688][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.09.29:689][228]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.09.29:689][228]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.09.29:689][228]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.09.29:691][228]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.09.29:772][228]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.09.29:773][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.09.29:773][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.09.29:773][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.09.29:775][228]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.05.06-20.09.29:775][228]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.05.06-20.09.29:776][228]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.05.06-20.09.29:776][228]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.05.06-20.09.29:776][228]LogInit: FAudioDevice initialized.
+[2022.05.06-20.09.29:776][228]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.09.29:790][228]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.09.29:792][228]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.09.29
+[2022.05.06-20.09.29:792][228]LogWorld: Bringing up level for play took: 0.001458
+[2022.05.06-20.09.29:794][228]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2022.05.06-20.09.29:797][228]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.09.29:797][228]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.09.29:798][228]PIE: Server logged in
+[2022.05.06-20.09.29:799][228]PIE: Play in editor total start time 0.13 seconds.
+[2022.05.06-20.09.30:412][235]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.06-20.10.11:446][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.10.11:446][262]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.10.11:446][262]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.10.11:446][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.10.11:471][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.10.11:473][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.10.11:482][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.10.11:483][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.05.06-20.10.11:484][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.05.06-20.10.11:492][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.05.06-20.10.11:552][263]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.06-20.11.01:525][923]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2022.05.06-20.11.01:532][923]LogWorldPartition: Display: GenerateStreaming took 308 us
+[2022.05.06-20.11.01:533][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.11.01:533][923]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:11:01 PM)
+[2022.05.06-20.11.01:533][923]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.11.01:538][923]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.11.01:538][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005524s)
+[2022.05.06-20.11.01:538][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005585s)
+[2022.05.06-20.11.01:539][923]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.11.01:539][923]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.11.01:539][923]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.11.01:540][923]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.11.01:541][923]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-20.11.01:541][923]LogPlayLevel: PIE: World Init took: (0.002364s)
+[2022.05.06-20.11.01:549][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.06-20.11.01:551][923]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.11.01:551][923]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.11.01:551][923]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.11.01:551][923]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.11.01:551][923]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.11.01:551][923]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.11.01:553][923]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.11.01:633][923]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.11.01:633][923]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.11.01:633][923]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.11.01:633][923]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.11.01:635][923]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.05.06-20.11.01:635][923]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.05.06-20.11.01:636][923]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.05.06-20.11.01:636][923]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.05.06-20.11.01:636][923]LogInit: FAudioDevice initialized.
+[2022.05.06-20.11.01:636][923]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.11.01:651][923]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.11.01:652][923]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.11.01
+[2022.05.06-20.11.01:652][923]LogWorld: Bringing up level for play took: 0.001433
+[2022.05.06-20.11.01:654][923]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2022.05.06-20.11.01:657][923]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.11.01:657][923]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.11.01:657][923]PIE: Server logged in
+[2022.05.06-20.11.01:658][923]PIE: Play in editor total start time 0.128 seconds.
+[2022.05.06-20.11.48:006][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.11.48:006][292]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.11.48:006][292]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.11.48:007][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.11.48:034][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.11.48:036][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.11.48:043][292]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-20.11.48:044][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.06-20.11.48:045][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.05.06-20.11.48:051][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.11.48:053][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.06-20.11.48:102][293]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.05.06-20.11.58:352][928]Cmd: SELECT NONE
+[2022.05.06-20.12.16:336][862]LogStaticMesh: Display: Building static mesh Cylinder_98C20160...
+[2022.05.06-20.12.16:336][862]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160.Cylinder_98C20160
+[2022.05.06-20.12.36:366][130]Cmd: DELETE
+[2022.05.06-20.12.36:366][130]Cmd: ACTOR DELETE
+[2022.05.06-20.12.36:368][130]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-20.12.36:382][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.06-20.12.36:384][130]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2022.05.06-20.13.18:637][189]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2022.05.06-20.13.18:637][189]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2022.05.06-20.13.22:650][398]Cmd: TRANSACTION UNDO
+[2022.05.06-20.13.22:650][398]LogEditorTransaction: Undo Cut Hole
+[2022.05.06-20.14.07:826][839]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2022.05.06-20.14.07:826][839]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2022.05.06-20.14.33:308][322]Cmd: TRANSACTION UNDO
+[2022.05.06-20.14.33:308][322]LogEditorTransaction: Undo Cut Hole
+[2022.05.06-20.15.03:373][133]Cmd: DELETE
+[2022.05.06-20.15.03:373][133]Cmd: ACTOR DELETE
+[2022.05.06-20.15.03:375][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.06-20.15.03:392][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.06-20.15.03:394][133]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2022.05.06-20.15.15:389][948]LogStaticMesh: Display: Building static mesh Rectangle_1FB87D79...
+[2022.05.06-20.15.15:389][948]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79.Rectangle_1FB87D79
+[2022.05.06-20.17.18:085][962]LogStaticMesh: Display: Building static mesh Rectangle_1FB87D79...
+[2022.05.06-20.17.18:085][962]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79.Rectangle_1FB87D79
+[2022.05.06-20.18.32:469][290]LogStaticMesh: Display: Building static mesh Rectangle_4D1FA59A...
+[2022.05.06-20.18.32:469][290]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A.Rectangle_4D1FA59A
+[2022.05.06-20.19.44:310][366]Cmd: MODE GRID=0
+[2022.05.06-20.20.58:427][490]Cmd: MODE GRID=1
+[2022.05.06-20.21.49:416][254]Cmd: EDIT COPY
+[2022.05.06-20.21.50:813][323]Cmd: EDIT PASTE
+[2022.05.06-20.22.17:983][680]Cmd: MODE GRID=0
+[2022.05.06-20.22.40:744][928]LogStaticMesh: Display: Building static mesh Rectangle_DCD3328E...
+[2022.05.06-20.22.40:744][928]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E.Rectangle_DCD3328E
+[2022.05.06-20.26.10:827][262]Cmd: SELECT NONE
+[2022.05.06-20.26.39:181][  4]LogStaticMesh: Display: Building static mesh Rectangle_7B32E524...
+[2022.05.06-20.26.39:181][  4]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_7B32E524.Rectangle_7B32E524
+[2022.05.06-20.26.52:452][775]Cmd: SELECT NONE
+[2022.05.06-20.27.14:765][160]Cmd: SELECT NONE
+[2022.05.06-20.27.21:560][592]Cmd: SELECT NONE
+[2022.05.06-20.27.39:917][703]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.39:917][703]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:106][705]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:106][705]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:347][708]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:347][708]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:529][710]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:529][710]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:645][713]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:645][713]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:793][718]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:793][718]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.40:963][728]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.40:963][728]LogEditorTransaction: Undo Select None
+[2022.05.06-20.27.41:159][738]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.41:159][738]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.41:426][752]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.41:426][752]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.42:865][840]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.42:866][840]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.43:052][846]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.43:052][846]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.43:224][857]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.43:224][857]LogEditorTransaction: Undo Select None
+[2022.05.06-20.27.43:402][864]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.43:402][864]LogEditorTransaction: Undo Rotate Elements
+[2022.05.06-20.27.43:570][871]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.43:570][871]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.43:763][882]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.43:763][882]LogEditorTransaction: Undo Rotate Elements
+[2022.05.06-20.27.44:396][918]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.44:396][918]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.51:076][306]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.51:076][306]LogEditorTransaction: Undo Rotate Elements
+[2022.05.06-20.27.51:411][311]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.51:411][311]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.51:642][314]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.51:642][314]LogEditorTransaction: Undo Select None
+[2022.05.06-20.27.52:066][339]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.52:066][339]LogEditorTransaction: Undo Rotate Elements
+[2022.05.06-20.27.52:245][348]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.52:245][348]LogEditorTransaction: Undo Add Shape Mesh
+[2022.05.06-20.27.53:017][396]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.53:017][396]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.27.53:712][443]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.53:712][443]LogEditorTransaction: Undo Select None
+[2022.05.06-20.27.54:190][470]Cmd: TRANSACTION UNDO
+[2022.05.06-20.27.54:190][470]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.28.15:178][780]Cmd: TRANSACTION UNDO
+[2022.05.06-20.28.15:178][780]LogEditorTransaction: Undo Rotate Elements
+[2022.05.06-20.28.54:367][148]LogStaticMesh: Display: Building static mesh Rectangle_DFA2A46F...
+[2022.05.06-20.28.54:367][148]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F.Rectangle_DFA2A46F
+[2022.05.06-20.31.47:250][122]Cmd: EDIT COPY
+[2022.05.06-20.31.48:523][202]Cmd: EDIT PASTE
+[2022.05.06-20.32.22:430][208]Cmd: SELECT NONE
+[2022.05.06-20.32.36:636][991]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.06-20.32.40:181][991]LogSlate: Window 'Save Asset As' being destroyed
+[2022.05.06-20.33.39:589][146]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_BC542FADF2B8460D01_1354011233 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/A9/8KB8Q5ECGPLDXPOFP40PGU.PackageMetaData in its package
+[2022.05.06-20.33.39:593][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.05.06-20.33.39:596][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/T6/3EPP3H5KNH1TAS3FIYG3JI_Auto3
+[2022.05.06-20.33.39:596][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/3EPP3H5KNH1TAS3FIYG3JI_Auto3ED47A3FE4F51211F9527F1A496104AC9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/T6/3EPP3H5KNH1TAS3FIYG3JI_Auto3.uasset'
+[2022.05.06-20.33.39:598][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW_Auto3
+[2022.05.06-20.33.39:598][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/2QISIGK5DJNQ05US8O8FXW_Auto347EF7E4A4776AD30461B46A3F8E984DD.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW_Auto3.uasset'
+[2022.05.06-20.33.39:601][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY_Auto3
+[2022.05.06-20.33.39:601][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/U98KGKQ41NJYFOGFQM8ZDY_Auto3B778CAC74BC20330DC7305B3B0A22DE6.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY_Auto3.uasset'
+[2022.05.06-20.33.39:603][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6_Auto3
+[2022.05.06-20.33.39:603][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MRHJREJ6H7USQYWF1KO8F6_Auto3A559E20D481F3F4B7DEC1A9CAF1566D3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6_Auto3.uasset'
+[2022.05.06-20.33.39:605][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR_Auto3
+[2022.05.06-20.33.39:605][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/BY1DA5CRGQSAMOTK8RA8KR_Auto3B162620241FC090096D5C1A9542EC081.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR_Auto3.uasset'
+[2022.05.06-20.33.39:607][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q_Auto3
+[2022.05.06-20.33.39:607][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/JNKFA4X9LRMSF343ESPF6Q_Auto3E570EFBB4CE047D5DCAA95B57CF2B3D3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q_Auto3.uasset'
+[2022.05.06-20.33.39:609][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/9N/UA36TIYRM9KPXVVSL2J19M_Auto3
+[2022.05.06-20.33.39:609][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UA36TIYRM9KPXVVSL2J19M_Auto3BCC4141D45CCC203C2F6688534619222.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/9N/UA36TIYRM9KPXVVSL2J19M_Auto3.uasset'
+[2022.05.06-20.33.39:612][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/FH/Z21ZLSGA16RO66SUZ9RFW7_Auto3
+[2022.05.06-20.33.39:612][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Z21ZLSGA16RO66SUZ9RFW7_Auto350F1D3FC466CEDC58D5F97979967C69E.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/FH/Z21ZLSGA16RO66SUZ9RFW7_Auto3.uasset'
+[2022.05.06-20.33.39:614][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/V6/GSYMCS2F2KZS2HTQCIA2J5_Auto3
+[2022.05.06-20.33.39:614][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/GSYMCS2F2KZS2HTQCIA2J5_Auto34B98E26B474F351565DDC383D11225CE.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/V6/GSYMCS2F2KZS2HTQCIA2J5_Auto3.uasset'
+[2022.05.06-20.33.39:616][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/1W/YWLMQN03OHBBCRUBTU6E8B_Auto3
+[2022.05.06-20.33.39:616][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/YWLMQN03OHBBCRUBTU6E8B_Auto39FEC912D44A49266A42D228570BEFC7A.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/1W/YWLMQN03OHBBCRUBTU6E8B_Auto3.uasset'
+[2022.05.06-20.33.39:618][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/Z8/UX67FUW7WROT71RP30BLAR_Auto3
+[2022.05.06-20.33.39:618][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UX67FUW7WROT71RP30BLAR_Auto3ED9C80D84594BCC6AA8262A29538456E.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/Z8/UX67FUW7WROT71RP30BLAR_Auto3.uasset'
+[2022.05.06-20.33.39:621][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/XB/DHAMLEIAMK1KESEWSFG435_Auto3
+[2022.05.06-20.33.39:621][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/DHAMLEIAMK1KESEWSFG435_Auto377C4734143C47DF6C03BDE9FD9607D1C.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/XB/DHAMLEIAMK1KESEWSFG435_Auto3.uasset'
+[2022.05.06-20.33.39:622][146]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.041
+[2022.05.06-20.33.39:622][146]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2022.05.06-20.33.39:622][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160] ([1] browsable assets)...
+[2022.05.06-20.33.39:643][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160.Cylinder_98C20160]
+[2022.05.06-20.33.39:643][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160]
+[2022.05.06-20.33.39:646][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160_Auto3
+[2022.05.06-20.33.39:646][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Cylinder_98C20160_Auto35910CD314CD91F74E469999510E7D901.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Cylinder_98C20160_Auto3.uasset'
+[2022.05.06-20.33.39:647][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79] ([1] browsable assets)...
+[2022.05.06-20.33.39:655][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79.Rectangle_1FB87D79]
+[2022.05.06-20.33.39:655][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79]
+[2022.05.06-20.33.39:657][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79_Auto3
+[2022.05.06-20.33.39:657][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Rectangle_1FB87D79_Auto3C88FD55A47B4027253EA9C995E646828.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_1FB87D79_Auto3.uasset'
+[2022.05.06-20.33.39:658][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A] ([1] browsable assets)...
+[2022.05.06-20.33.39:666][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A.Rectangle_4D1FA59A]
+[2022.05.06-20.33.39:666][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A]
+[2022.05.06-20.33.39:668][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A_Auto3
+[2022.05.06-20.33.39:668][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Rectangle_4D1FA59A_Auto3EBA558C646103F401344ADAD7C67D6D5.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_4D1FA59A_Auto3.uasset'
+[2022.05.06-20.33.39:669][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E] ([1] browsable assets)...
+[2022.05.06-20.33.39:677][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E.Rectangle_DCD3328E]
+[2022.05.06-20.33.39:677][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E]
+[2022.05.06-20.33.39:679][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E_Auto3
+[2022.05.06-20.33.39:679][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Rectangle_DCD3328E_Auto34CEC40DE465154DCC54720B99FF08FB9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DCD3328E_Auto3.uasset'
+[2022.05.06-20.33.39:680][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F] ([1] browsable assets)...
+[2022.05.06-20.33.39:688][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F.Rectangle_DFA2A46F]
+[2022.05.06-20.33.39:688][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F]
+[2022.05.06-20.33.39:691][146]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F_Auto3
+[2022.05.06-20.33.39:691][146]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Rectangle_DFA2A46F_Auto302F992EF4B8E826851B19790276131C9.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/ThirdPerson/Maps/_GENERATED/runes/Rectangle_DFA2A46F_Auto3.uasset'
+[2022.05.06-20.33.39:691][146]LogFileHelpers: Auto-saving content packages took 0.070
+[2022.05.06-20.33.39:723][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.05.06-20.36.27:345][522]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.36.27:353][522]LogWorldPartition: Display: GetPartitionedActors took 68 us
+[2022.05.06-20.36.27:354][522]LogWorldPartition: Display: GenerateStreaming took 365 us
+[2022.05.06-20.36.27:354][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.36.27:354][522]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:36:27 PM)
+[2022.05.06-20.36.27:377][522]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.36.27:383][522]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.36.27:383][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005176s)
+[2022.05.06-20.36.27:383][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005265s)
+[2022.05.06-20.36.27:383][522]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.36.27:383][522]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.36.27:384][522]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.36.27:384][522]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.36.27:385][522]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-20.36.27:385][522]LogPlayLevel: PIE: World Init took: (0.002413s)
+[2022.05.06-20.36.27:393][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.05.06-20.36.27:393][522]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.06-20.36.27:393][522]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.36.27:393][522]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.36.27:394][522]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.36.27:394][522]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.36.27:394][522]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.36.27:394][522]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.36.27:394][522]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.36.27:394][522]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.36.27:394][522]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.36.27:394][522]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.36.27:394][522]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.36.27:396][522]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.36.27:475][522]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.36.27:475][522]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.36.27:475][522]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.36.27:475][522]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.36.27:477][522]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.05.06-20.36.27:477][522]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.05.06-20.36.27:478][522]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.05.06-20.36.27:478][522]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.05.06-20.36.27:478][522]LogInit: FAudioDevice initialized.
+[2022.05.06-20.36.27:478][522]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.36.27:489][522]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.36.27:490][522]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.36.27
+[2022.05.06-20.36.27:490][522]LogWorld: Bringing up level for play took: 0.001608
+[2022.05.06-20.36.27:492][522]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.05.06-20.36.27:495][522]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.36.27:495][522]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.36.27:495][522]PIE: Server logged in
+[2022.05.06-20.36.27:497][522]PIE: Play in editor total start time 0.146 seconds.
+[2022.05.06-20.36.34:645][856]LogDerivedDataCache: C:/Users/runes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.106 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.06-20.37.17:038][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.37.17:038][881]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.37.17:038][881]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.37.17:038][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.37.17:057][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.37.17:059][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.37.17:068][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.37.17:069][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.05.06-20.37.17:070][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.05.06-20.37.17:077][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.06-20.37.17:172][882]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.05.06-20.37.18:065][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: GetPartitionedActors took 59 us
+[2022.05.06-20.37.18:073][913]LogWorldPartition: Display: GenerateStreaming took 335 us
+[2022.05.06-20.37.18:073][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.37.18:073][913]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:37:18 PM)
+[2022.05.06-20.37.18:073][913]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.37.18:078][913]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.37.18:078][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005037s)
+[2022.05.06-20.37.18:078][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005099s)
+[2022.05.06-20.37.18:079][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.37.18:079][913]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.37.18:079][913]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.37.18:079][913]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.37.18:081][913]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-20.37.18:081][913]LogPlayLevel: PIE: World Init took: (0.002250s)
+[2022.05.06-20.37.18:089][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.05.06-20.37.18:091][913]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.37.18:091][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.37.18:091][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.37.18:091][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.37.18:091][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.37.18:091][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.37.18:093][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.37.18:170][913]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.37.18:171][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.37.18:171][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.37.18:171][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.37.18:172][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.05.06-20.37.18:172][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.05.06-20.37.18:174][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.05.06-20.37.18:174][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.05.06-20.37.18:174][913]LogInit: FAudioDevice initialized.
+[2022.05.06-20.37.18:174][913]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.37.18:182][913]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.37.18:184][913]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.37.18
+[2022.05.06-20.37.18:184][913]LogWorld: Bringing up level for play took: 0.001598
+[2022.05.06-20.37.18:186][913]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.05.06-20.37.18:189][913]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.37.18:189][913]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.37.18:189][913]PIE: Server logged in
+[2022.05.06-20.37.18:190][913]PIE: Play in editor total start time 0.12 seconds.
+[2022.05.06-20.38.04:078][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.38.04:078][175]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.38.04:078][175]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.38.04:078][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.38.04:104][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.38.04:106][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.38.04:116][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.38.04:116][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.05.06-20.38.04:118][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.05.06-20.38.04:126][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.06-20.38.04:189][176]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.05.06-20.38.12:670][561]Cmd: SELECT NONE
+[2022.05.06-20.39.52:872][542]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Landscape_UAID_BC542FADF2B8470D01_1073818412.Heightmap_0 (BGRA8, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2022.05.06-20.39.52:888][542]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6E4F02556F7D5077AC6555C5C97002CB05B92B83), compiling. 
+[2022.05.06-20.39.53:225][542]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_0_0_0.Heightmap_0 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: ================================================
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Total job queries 6, among them cache hits 0 (0.00%)
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Jobs assigned 3, completed 1 (33.33%)
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Time job spent in pending queue: average 0.66 s, longest 1.94 s
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Job execution time: average 2.19 s, max 2.19 s
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Job life time (pending + execution): average 2.22 s, max 2.22
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.22 s
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Average processing rate: 0.45 jobs/sec
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Effective parallelization: 0.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.05.06-20.39.55:196][591]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 100.00% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2022.05.06-20.39.55:197][591]LogShaderCompilers: Display: ================================================
+[2022.05.06-20.39.58:155][704]Cmd: SELECT NONE
+[2022.05.06-20.39.59:336][765]Cmd: SELECT NONE
+[2022.05.06-20.40.13:475][398]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: GetPartitionedActors took 65 us
+[2022.05.06-20.40.13:486][398]LogWorldPartition: Display: GenerateStreaming took 434 us
+[2022.05.06-20.40.13:487][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.40.13:487][398]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:40:13 PM)
+[2022.05.06-20.40.13:487][398]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.40.13:504][398]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.40.13:504][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017427s)
+[2022.05.06-20.40.13:504][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.017487s)
+[2022.05.06-20.40.13:505][398]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.40.13:505][398]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.40.13:505][398]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.40.13:505][398]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.40.13:510][398]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2022.05.06-20.40.13:510][398]LogPlayLevel: PIE: World Init took: (0.005178s)
+[2022.05.06-20.40.13:534][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.05.06-20.40.13:536][398]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.40.13:536][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.40.13:536][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.40.13:536][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.40.13:536][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.40.13:536][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.40.13:538][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.40.13:619][398]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.40.13:619][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.40.13:619][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.40.13:619][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.40.13:620][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.05.06-20.40.13:620][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.05.06-20.40.13:622][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.05.06-20.40.13:622][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.05.06-20.40.13:622][398]LogInit: FAudioDevice initialized.
+[2022.05.06-20.40.13:622][398]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.40.13:635][398]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.40.13:638][398]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.40.13
+[2022.05.06-20.40.13:639][398]LogWorld: Bringing up level for play took: 0.003068
+[2022.05.06-20.40.13:640][398]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.05.06-20.40.13:689][398]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.06-20.40.13:717][398]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-48.187 Y=-32.113 Z=0.000
+[2022.05.06-20.40.13:717][398]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.40.13:717][398]PIE: Server logged in
+[2022.05.06-20.40.13:718][398]PIE: Play in editor total start time 0.236 seconds.
+[2022.05.06-20.40.15:498][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.40.15:498][494]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.40.15:498][494]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.40.15:499][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.40.15:508][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.40.15:510][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.40.15:519][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-20.40.15:519][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.05.06-20.40.15:520][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.05.06-20.40.15:526][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.40.15:529][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.05.06-20.40.15:571][496]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.05.06-20.40.38:853][571]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.38:853][571]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.05.06-20.40.38:897][571]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_3_2_0.Heightmap_2 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.38:911][571]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_2_1_0.Heightmap_1 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.38:996][573]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.38:996][573]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.40.39:212][575]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.39:212][575]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.05.06-20.40.39:223][575]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_2_1_0.Heightmap_1 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.39:384][577]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.39:384][577]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.05.06-20.40.39:394][577]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_2_2_0.Heightmap_0 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.39:395][577]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_1_2_0.Heightmap_2 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.39:395][577]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_2_1_0.Heightmap_1 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.39:414][577]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_1_1_0.Heightmap_3 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.40:561][642]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.40:561][642]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.05.06-20.40.40:625][643]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_2EM0SDKCS8FIS9QH6BN5PDQUV_1_1_2_0.Heightmap_2 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.40.40:955][661]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.40:955][661]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.40.41:189][673]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.41:189][673]LogEditorTransaction: Undo Select None
+[2022.05.06-20.40.41:629][695]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.41:629][695]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2022.05.06-20.40.42:368][733]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.42:368][733]LogEditorTransaction: Undo Creating New Landscape
+[2022.05.06-20.40.44:424][869]Cmd: SELECT NONE
+[2022.05.06-20.40.44:862][900]Cmd: SELECT NONE
+[2022.05.06-20.40.46:226][ 10]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.46:227][ 10]LogEditorTransaction: Undo Select None
+[2022.05.06-20.40.47:081][ 43]Cmd: SELECT NONE
+[2022.05.06-20.40.47:868][ 99]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.47:868][ 99]LogEditorTransaction: Undo Select None
+[2022.05.06-20.40.48:254][123]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.48:254][123]LogEditorTransaction: Undo Edit Material
+[2022.05.06-20.40.48:851][165]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.48:852][165]LogEditorTransaction: Undo Select None
+[2022.05.06-20.40.49:797][234]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.49:797][234]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.40.50:173][261]Cmd: TRANSACTION UNDO
+[2022.05.06-20.40.50:173][261]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.40.51:365][345]Cmd: SELECT NONE
+[2022.05.06-20.40.58:682][801]Cmd: SELECT NONE
+[2022.05.06-20.41.14:516][712]Cmd: SELECT NONE
+[2022.05.06-20.41.17:151][904]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.17:151][904]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.41.17:330][907]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.17:330][907]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.41.17:502][910]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.17:502][910]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.17:698][914]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.17:698][914]LogEditorTransaction: Undo Replace component used material
+[2022.05.06-20.41.17:873][924]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.17:873][924]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.18:070][938]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.18:070][938]LogEditorTransaction: Undo Replace component used material
+[2022.05.06-20.41.18:246][949]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.18:246][949]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.18:438][962]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.18:438][962]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.18:656][978]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.18:656][978]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.19:143][ 14]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.19:143][ 14]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.19:611][ 47]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.19:611][ 47]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.20:052][ 78]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.20:052][ 78]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.20:575][117]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.20:575][117]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-20.41.21:137][159]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.21:137][159]LogEditorTransaction: Undo Select None
+[2022.05.06-20.41.21:353][175]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.21:353][175]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.41.21:559][189]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.21:559][189]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.41.22:846][272]Cmd: TRANSACTION UNDO
+[2022.05.06-20.41.22:846][272]LogEditorTransaction: Undo Set Rotation
+[2022.05.06-20.41.31:621][761]Cmd: SELECT NONE
+[2022.05.06-20.41.31:990][781]Cmd: SELECT NONE
+[2022.05.06-20.42.34:966][620]Cmd: SELECT NONE
+[2022.05.06-20.43.17:532][155]Cmd: EDIT COPY
+[2022.05.06-20.43.18:009][179]Cmd: EDIT PASTE
+[2022.05.06-20.43.48:563][812]Cmd: SELECT NONE
+[2022.05.06-20.45.27:391][452]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.05.06-20.45.27:404][452]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2022.05.06-20.45.27:404][452]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Actor_UAID_BC542FADF2B8470D01_1408508414
+[2022.05.06-20.45.27:405][452]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Actor_UAID_BC542FADF2B8470D01_1408508414
+[2022.05.06-20.45.37:994][964]Cmd: TRANSACTION UNDO
+[2022.05.06-20.45.37:994][964]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.45.38:543][976]Cmd: TRANSACTION UNDO
+[2022.05.06-20.45.38:543][976]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.45.38:941][996]Cmd: TRANSACTION UNDO
+[2022.05.06-20.45.38:941][996]LogEditorTransaction: Undo Move Elements
+[2022.05.06-20.45.39:299][ 15]Cmd: TRANSACTION UNDO
+[2022.05.06-20.45.39:299][ 15]LogEditorTransaction: Undo Create Actor
+[2022.05.06-20.46.09:357][250]Launching UnrealBuildTool... [D:/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="D:/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.05.06-20.46.09:465][250]Launching UnrealBuildTool... [D:/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Mode=QueryTargets -Output="D:/UE_5.0/Engine/Intermediate/TargetInfo.json"]
+[2022.05.06-20.46.09:568][250]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2022.05.06-20.46.09:568][250]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-14APMF4
+[2022.05.06-20.46.09:568][250]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/TimNickTest.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Intermediate/TurnkeyReport_1.log" -log="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Intermediate/TurnkeyLog_1.log" -project="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/TimNickTest.uproject"  -Device=Win64@DESKTOP-14APMF4'
+[2022.05.06-20.46.09:568][250]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/TimNickTest.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Intermediate/TurnkeyReport_1.log" -log="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Intermediate/TurnkeyLog_1.log" -project="C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/TimNickTest.uproject"  -Device=Win64@DESKTOP-14APMF4" ]
+[2022.05.06-20.46.09:677][258]LogTurnkeySupport: Completed device detection: Code = 9009
+[2022.05.06-20.46.36:590][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2022.05.06-20.50.16:543][118]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Landscape_UAID_BC542FADF2B8470D01_1697576415.Heightmap_0 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.05.06-20.50.16:617][118]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_0_0.Heightmap_0 (BGRA8, 8X8 X1X1) (Required Memory Estimate: 0.001621 MB), EncodeSpeed: Fast
+[2022.05.06-20.50.19:854][264]Cmd: SELECT NONE
+[2022.05.06-20.50.20:376][290]Cmd: SELECT NONE
+[2022.05.06-20.50.38:362][223]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: GetPartitionedActors took 61 us
+[2022.05.06-20.50.38:373][223]LogWorldPartition: Display: GenerateStreaming took 404 us
+[2022.05.06-20.50.38:373][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.50.38:374][223]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:50:38 PM)
+[2022.05.06-20.50.38:374][223]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.50.38:422][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_111', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:422][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_110', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_47', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_46', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_109', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_108', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_45', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_44', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_107', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_106', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_43', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_42', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_105', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_104', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_41', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.50.38:430][223]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_40', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.50.38:432][223]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.50.38:432][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058258s)
+[2022.05.06-20.50.38:432][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.058316s)
+[2022.05.06-20.50.38:432][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.50.38:432][223]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.50.38:433][223]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.50.38:433][223]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.50.38:436][223]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2022.05.06-20.50.38:436][223]LogPlayLevel: PIE: World Init took: (0.004530s)
+[2022.05.06-20.50.38:473][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.06-20.50.38:475][223]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.50.38:475][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.50.38:475][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.50.38:476][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.50.38:476][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.50.38:476][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.50.38:478][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.50.38:556][223]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.50.38:556][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.50.38:556][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.50.38:556][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.50.38:557][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.05.06-20.50.38:557][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.05.06-20.50.38:559][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.05.06-20.50.38:559][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.05.06-20.50.38:559][223]LogInit: FAudioDevice initialized.
+[2022.05.06-20.50.38:559][223]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.50.38:569][223]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.50.38:572][223]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.50.38
+[2022.05.06-20.50.38:572][223]LogWorld: Bringing up level for play took: 0.003087
+[2022.05.06-20.50.38:574][223]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2022.05.06-20.50.38:589][223]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.50.38:589][223]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.50.38:589][223]PIE: Server logged in
+[2022.05.06-20.50.38:590][223]PIE: Play in editor total start time 0.222 seconds.
+[2022.05.06-20.50.47:439][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.50.47:439][609]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.50.47:439][609]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.50.47:440][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.50.47:472][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.50.47:474][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.50.47:484][609]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-20.50.47:484][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.05.06-20.50.47:486][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.05.06-20.50.47:491][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.50.47:494][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.05.06-20.50.47:562][610]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.05.06-20.51.52:123][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.05.06-20.51.52:126][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/Z8/UX67FUW7WROT71RP30BLAR_Auto4
+[2022.05.06-20.51.52:126][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/UX67FUW7WROT71RP30BLAR_Auto4BC64A85C443CE865AAA45EA9D470B5D3.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/Z8/UX67FUW7WROT71RP30BLAR_Auto4.uasset'
+[2022.05.06-20.51.52:128][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/XB/DHAMLEIAMK1KESEWSFG435_Auto4
+[2022.05.06-20.51.52:128][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/DHAMLEIAMK1KESEWSFG435_Auto4793366A347BD03485F4437BE87573BD2.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/XB/DHAMLEIAMK1KESEWSFG435_Auto4.uasset'
+[2022.05.06-20.51.52:130][731]LogTexture: Display: Building textures: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_3_0.Heightmap_0 (BGRA8, 8X8 X1X1) (Required Memory Estimate: 0.001621 MB), EncodeSpeed: Fast
+[2022.05.06-20.51.52:143][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/B1/L8IP0EGN9OAM432GODNI22_Auto4
+[2022.05.06-20.51.52:143][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/L8IP0EGN9OAM432GODNI22_Auto41B55BCAC4D815278DB4EB9B514EF3F5F.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/B1/L8IP0EGN9OAM432GODNI22_Auto4.uasset'
+[2022.05.06-20.51.52:153][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY_Auto4
+[2022.05.06-20.51.52:153][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MOB1XNBOIWCD0FRZ1G4NUY_Auto4E4C7FF8A495F1077E9432AB283915014.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY_Auto4.uasset'
+[2022.05.06-20.51.52:163][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO_Auto4
+[2022.05.06-20.51.52:163][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/TMA3DO1U972O1ENU52NTRO_Auto466F8567A459FE59AD6BEB4BA732F78D0.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO_Auto4.uasset'
+[2022.05.06-20.51.52:172][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/OH/ZI1QW0U4X4660YSGAF8WW7_Auto4
+[2022.05.06-20.51.52:173][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/ZI1QW0U4X4660YSGAF8WW7_Auto4F7F607594FCE7C52183F47BB04280B8C.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/OH/ZI1QW0U4X4660YSGAF8WW7_Auto4.uasset'
+[2022.05.06-20.51.52:181][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/WX/QVE5PCAKV89ASFL92CQIP8_Auto4
+[2022.05.06-20.51.52:181][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/QVE5PCAKV89ASFL92CQIP8_Auto49A6D545A44B532C110E86E8469FA73C7.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/WX/QVE5PCAKV89ASFL92CQIP8_Auto4.uasset'
+[2022.05.06-20.51.52:191][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49_Auto4
+[2022.05.06-20.51.52:191][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/XC4O0JHF1H6RSJ5PHWBB49_Auto4628D2C0E4A370DCAB08147A28F2FBC6E.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49_Auto4.uasset'
+[2022.05.06-20.51.52:200][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV_Auto4
+[2022.05.06-20.51.52:200][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/CXPBMNOSZQRYYMLHTQSQIV_Auto453FECE6F463FFADC5212C6B6D5392797.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV_Auto4.uasset'
+[2022.05.06-20.51.52:211][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/6H/7XFRYEVZZZ1U312M72MNKD_Auto4
+[2022.05.06-20.51.52:211][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/7XFRYEVZZZ1U312M72MNKD_Auto47A79A3554213AAC9F853E4936B3ACFFA.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/6H/7XFRYEVZZZ1U312M72MNKD_Auto4.uasset'
+[2022.05.06-20.51.52:221][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/U7/VFIE5OMYHDUPVL5NLO1V1L_Auto4
+[2022.05.06-20.51.52:221][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/VFIE5OMYHDUPVL5NLO1V1L_Auto44E41CAA642FA92BB08E7B8B3DDBCB5BA.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/U7/VFIE5OMYHDUPVL5NLO1V1L_Auto4.uasset'
+[2022.05.06-20.51.52:230][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM_Auto4
+[2022.05.06-20.51.52:230][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/90U99CMEG3X969DGLIKCXM_Auto4060716D446884143292A6BA6E8BB59E7.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM_Auto4.uasset'
+[2022.05.06-20.51.52:240][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N_Auto4
+[2022.05.06-20.51.52:240][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MVMWJBFEEBVGDKJCRYQ03N_Auto4F41287C7488921FCBD3055BE8BF01A68.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N_Auto4.uasset'
+[2022.05.06-20.51.52:248][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/IE/HINBJW1IW6SMA7R9WOSHQE_Auto4
+[2022.05.06-20.51.52:248][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/HINBJW1IW6SMA7R9WOSHQE_Auto4768D519E47C5ED1BF5942D98DBEDDAF6.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/IE/HINBJW1IW6SMA7R9WOSHQE_Auto4.uasset'
+[2022.05.06-20.51.52:259][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1J/6EUGOE8GLDU2C933XSUHPZ_Auto4
+[2022.05.06-20.51.52:259][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/6EUGOE8GLDU2C933XSUHPZ_Auto4D83CB34A450AB9AF6C90FDB7A6584C3C.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1J/6EUGOE8GLDU2C933XSUHPZ_Auto4.uasset'
+[2022.05.06-20.51.52:268][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT_Auto4
+[2022.05.06-20.51.52:268][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/J0S4S49B3G5Q1CBEICYVJT_Auto4B5639A264D4D37A60EA1A785A69D0E87.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT_Auto4.uasset'
+[2022.05.06-20.51.52:278][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS_Auto4
+[2022.05.06-20.51.52:278][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MJWKJ5N2XFCJOGCTDDX5TS_Auto477BF542D49E4337BEDBF26AE6F868708.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS_Auto4.uasset'
+[2022.05.06-20.51.52:287][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/FUXQZXME60DAKANP3C4RDG_Auto4
+[2022.05.06-20.51.52:287][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/FUXQZXME60DAKANP3C4RDG_Auto49EB58C1843A1A5EB0168C2B976990A85.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/K0/FUXQZXME60DAKANP3C4RDG_Auto4.uasset'
+[2022.05.06-20.51.52:327][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/3S/LLT3GQHZJXCCIPFQ1238EF_Auto4
+[2022.05.06-20.51.52:327][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/LLT3GQHZJXCCIPFQ1238EF_Auto47A2572924E6B99415C542FADF81B3B73.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/3S/LLT3GQHZJXCCIPFQ1238EF_Auto4.uasset'
+[2022.05.06-20.51.52:330][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/AN/I0W21RYY6C34QV4D0ST73X_Auto4
+[2022.05.06-20.51.52:330][731]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/I0W21RYY6C34QV4D0ST73X_Auto40CFC010648E378D0293E23B9C0512FC2.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/AN/I0W21RYY6C34QV4D0ST73X_Auto4.uasset'
+[2022.05.06-20.51.52:330][731]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.218
+[2022.05.06-20.51.52:330][731]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.218
+[2022.05.06-20.53.11:170][ 38]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2022.05.06-20.53.11:181][ 38]LogWorldPartition: Display: GenerateStreaming took 385 us
+[2022.05.06-20.53.11:181][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.53.11:181][ 38]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:53:11 PM)
+[2022.05.06-20.53.11:182][ 38]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.53.11:193][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_111', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:193][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_110', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_47', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_46', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_109', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_108', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_45', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_44', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_107', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_106', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_43', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_42', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_105', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_104', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_41', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.11:194][ 38]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_40', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.11:195][ 38]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.53.11:195][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013806s)
+[2022.05.06-20.53.11:195][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.013862s)
+[2022.05.06-20.53.11:196][ 38]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.53.11:196][ 38]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.53.11:196][ 38]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.53.11:196][ 38]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.53.11:200][ 38]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2022.05.06-20.53.11:200][ 38]LogPlayLevel: PIE: World Init took: (0.004263s)
+[2022.05.06-20.53.11:224][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.05.06-20.53.11:225][ 38]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.53.11:225][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.53.11:225][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.53.11:226][ 38]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.53.11:226][ 38]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.53.11:226][ 38]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.53.11:228][ 38]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.53.11:307][ 38]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.53.11:308][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.53.11:308][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.53.11:308][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.53.11:308][ 38]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.05.06-20.53.11:308][ 38]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.05.06-20.53.11:310][ 38]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.05.06-20.53.11:310][ 38]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.05.06-20.53.11:310][ 38]LogInit: FAudioDevice initialized.
+[2022.05.06-20.53.11:310][ 38]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.53.11:322][ 38]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.53.11:325][ 38]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.53.11
+[2022.05.06-20.53.11:325][ 38]LogWorld: Bringing up level for play took: 0.002861
+[2022.05.06-20.53.11:327][ 38]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2022.05.06-20.53.11:330][ 38]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.53.11:330][ 38]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.53.11:330][ 38]PIE: Server logged in
+[2022.05.06-20.53.11:331][ 38]PIE: Play in editor total start time 0.155 seconds.
+[2022.05.06-20.53.22:859][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.53.22:859][341]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.53.22:859][341]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-20.53.22:860][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.53.22:873][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-20.53.22:875][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-20.53.22:884][341]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-20.53.22:885][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.05.06-20.53.22:886][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.05.06-20.53.22:891][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-20.53.22:893][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.05.06-20.53.22:935][343]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.05.06-20.53.23:501][375]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-20.53.23:511][375]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2022.05.06-20.53.23:512][375]LogWorldPartition: Display: GenerateStreaming took 403 us
+[2022.05.06-20.53.23:512][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-20.53.23:512][375]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 12:53:23 PM)
+[2022.05.06-20.53.23:512][375]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_111', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeHeightfieldCollisionComponent_110', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_47', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_3_2_0.LandscapeComponent_46', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_109', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_108', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_45', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_44', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_107', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_106', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_43', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_42', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_105', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeHeightfieldCollisionComponent_104', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_41', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-20.53.23:525][375]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_0_2_0.LandscapeComponent_40', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-20.53.23:527][375]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-20.53.23:527][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014649s)
+[2022.05.06-20.53.23:527][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014706s)
+[2022.05.06-20.53.23:527][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-20.53.23:527][375]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-20.53.23:528][375]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-20.53.23:528][375]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-20.53.23:531][375]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2022.05.06-20.53.23:531][375]LogPlayLevel: PIE: World Init took: (0.004240s)
+[2022.05.06-20.53.23:540][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.05.06-20.53.23:541][375]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-20.53.23:542][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-20.53.23:542][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-20.53.23:542][375]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-20.53.23:542][375]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-20.53.23:542][375]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-20.53.23:544][375]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-20.53.23:622][375]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-20.53.23:622][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-20.53.23:622][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-20.53.23:623][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-20.53.23:623][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.05.06-20.53.23:623][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.05.06-20.53.23:625][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.05.06-20.53.23:625][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.05.06-20.53.23:625][375]LogInit: FAudioDevice initialized.
+[2022.05.06-20.53.23:625][375]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2022.05.06-20.53.23:639][375]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-20.53.23:642][375]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-16.53.23
+[2022.05.06-20.53.23:642][375]LogWorld: Bringing up level for play took: 0.003007
+[2022.05.06-20.53.23:644][375]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2022.05.06-20.53.23:647][375]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-20.53.23:647][375]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-20.53.23:647][375]PIE: Server logged in
+[2022.05.06-20.53.23:648][375]PIE: Play in editor total start time 0.142 seconds.
+[2022.05.06-21.00.01:170][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.00.01:170][594]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.00.01:170][594]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-21.00.01:171][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.00.01:199][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-21.00.01:201][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.00.01:213][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.00.01:213][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.05.06-21.00.01:214][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.05.06-21.00.01:223][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.05.06-21.00.01:310][595]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.05.06-21.00.48:126][541]Cmd: SELECT NONE
+[2022.05.06-21.00.48:632][561]Cmd: SELECT NONE
+[2022.05.06-21.00.49:173][592]Cmd: SELECT NONE
+[2022.05.06-21.00.49:487][614]Cmd: SELECT NONE
+[2022.05.06-21.00.49:705][628]Cmd: SELECT NONE
+[2022.05.06-21.00.53:656][920]Cmd: SELECT NONE
+[2022.05.06-21.00.56:961][160]Cmd: DELETE
+[2022.05.06-21.00.56:961][160]Cmd: ACTOR DELETE
+[2022.05.06-21.00.56:965][160]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.00.56:983][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.05.06-21.00.56:986][160]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2022.05.06-21.01.00:462][357]Cmd: SELECT NONE
+[2022.05.06-21.01.00:667][365]Cmd: SELECT NONE
+[2022.05.06-21.01.00:893][376]Cmd: SELECT NONE
+[2022.05.06-21.01.59:983][ 15]Cmd: DELETE
+[2022.05.06-21.01.59:983][ 15]Cmd: ACTOR DELETE
+[2022.05.06-21.01.59:986][ 15]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.02.00:004][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.06-21.02.00:007][ 15]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.02.03:632][296]Cmd: DELETE
+[2022.05.06-21.02.03:632][296]Cmd: ACTOR DELETE
+[2022.05.06-21.02.03:635][296]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.02.03:653][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.05.06-21.02.03:655][296]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.05.06-21.02.10:527][818]Cmd: DELETE
+[2022.05.06-21.02.10:527][818]Cmd: ACTOR DELETE
+[2022.05.06-21.02.10:529][818]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.02.10:547][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.06-21.02.10:550][818]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.02.14:617][135]Cmd: DELETE
+[2022.05.06-21.02.14:617][135]Cmd: ACTOR DELETE
+[2022.05.06-21.02.14:619][135]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.02.14:638][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.06-21.02.14:640][135]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.02.17:900][390]Cmd: DELETE
+[2022.05.06-21.02.17:900][390]Cmd: ACTOR DELETE
+[2022.05.06-21.02.17:902][390]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.02.17:921][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.05.06-21.02.17:923][390]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.05.06-21.02.41:242][676]Cmd: EDIT COPY
+[2022.05.06-21.02.42:936][761]Cmd: SELECT NONE
+[2022.05.06-21.02.43:350][782]Cmd: SELECT NONE
+[2022.05.06-21.02.43:537][791]Cmd: SELECT NONE
+[2022.05.06-21.02.44:604][848]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.44:604][848]LogEditorTransaction: Undo Select None
+[2022.05.06-21.02.45:067][855]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.45:067][855]LogEditorTransaction: Undo Copy landscape data to Gizmo
+[2022.05.06-21.02.45:407][866]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.45:407][866]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.45:950][893]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.45:950][893]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.46:397][917]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.46:397][917]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.46:790][938]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.46:790][938]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.47:217][961]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.47:217][961]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.02.47:729][985]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.47:729][985]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.48:175][  7]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.48:175][  7]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-21.02.48:613][ 30]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.48:613][ 30]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.49:003][ 49]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.49:003][ 49]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.49:377][ 69]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.49:377][ 69]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.02.49:745][ 85]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.49:745][ 85]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-21.02.50:018][100]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.50:018][100]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.50:241][110]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.50:241][110]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.50:474][122]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.50:474][122]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.50:687][133]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.50:687][133]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.51:116][156]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.51:116][156]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.51:492][176]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.51:492][176]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.51:942][199]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.51:942][199]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.02.52:221][210]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.52:221][210]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.52:532][225]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.52:532][225]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.52:956][247]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.52:956][247]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-21.02.53:292][263]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.53:293][263]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.53:813][289]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.53:814][289]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.54:564][329]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.54:565][329]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-21.02.55:062][355]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.55:062][355]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.55:438][373]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.55:438][373]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.55:760][389]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.55:760][389]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.56:155][410]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.56:155][410]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.02.57:224][464]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.57:224][464]LogEditorTransaction: Undo Clicking on Elements
+[2022.05.06-21.02.58:007][507]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.58:007][507]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2022.05.06-21.02.58:535][534]Cmd: TRANSACTION UNDO
+[2022.05.06-21.02.58:535][534]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.03.10:363][182]Cmd: SELECT NONE
+[2022.05.06-21.03.10:681][204]Cmd: SELECT NONE
+[2022.05.06-21.03.10:912][220]Cmd: SELECT NONE
+[2022.05.06-21.03.20:412][806]Cmd: SELECT NONE
+[2022.05.06-21.03.38:296][925]Cmd: DELETE
+[2022.05.06-21.03.38:296][925]Cmd: ACTOR DELETE
+[2022.05.06-21.03.38:301][925]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.03.38:319][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.06-21.03.38:322][925]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2022.05.06-21.03.55:037][923]Cmd: DELETE
+[2022.05.06-21.03.55:037][923]Cmd: ACTOR DELETE
+[2022.05.06-21.03.55:040][923]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.03.55:058][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.05.06-21.03.55:060][923]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.03.56:392][  7]Cmd: DELETE
+[2022.05.06-21.03.56:392][  7]Cmd: ACTOR DELETE
+[2022.05.06-21.03.56:395][  7]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.03.56:412][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.05.06-21.03.56:414][  7]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.05.06-21.04.00:275][207]Cmd: TRANSACTION UNDO
+[2022.05.06-21.04.00:275][207]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.04.06:842][606]Cmd: DELETE
+[2022.05.06-21.04.06:842][606]Cmd: ACTOR DELETE
+[2022.05.06-21.04.06:845][606]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.04.06:863][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.06-21.04.06:865][606]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.05.06-21.04.16:254][240]Cmd: DELETE
+[2022.05.06-21.04.16:254][240]Cmd: ACTOR DELETE
+[2022.05.06-21.04.16:257][240]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.04.16:275][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.05.06-21.04.16:278][240]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.04.24:237][811]Cmd: DELETE
+[2022.05.06-21.04.24:237][811]Cmd: ACTOR DELETE
+[2022.05.06-21.04.24:239][811]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.04.24:256][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.05.06-21.04.24:260][811]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.05.06-21.04.36:106][609]Cmd: DELETE
+[2022.05.06-21.04.36:106][609]Cmd: ACTOR DELETE
+[2022.05.06-21.04.36:109][609]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.04.36:127][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.06-21.04.36:130][609]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.05.06-21.04.41:609][969]Cmd: DELETE
+[2022.05.06-21.04.41:609][969]Cmd: ACTOR DELETE
+[2022.05.06-21.04.41:612][969]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.04.41:629][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.05.06-21.04.41:631][969]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.05.06-21.04.46:821][314]Cmd: SELECT NONE
+[2022.05.06-21.05.22:424][225]Cmd: EDIT PASTE
+[2022.05.06-21.08.41:958][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.06-21.08.41:966][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY_Auto5
+[2022.05.06-21.08.41:966][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MOB1XNBOIWCD0FRZ1G4NUY_Auto5D2B2A0754336234557ABB5B9C7A325FE.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EP/MOB1XNBOIWCD0FRZ1G4NUY_Auto5.uasset'
+[2022.05.06-21.08.41:972][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO_Auto5
+[2022.05.06-21.08.41:972][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/TMA3DO1U972O1ENU52NTRO_Auto5C94D6F0B4443E42E119166AF14B3DA6D.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/TT/TMA3DO1U972O1ENU52NTRO_Auto5.uasset'
+[2022.05.06-21.08.41:978][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49_Auto5
+[2022.05.06-21.08.41:978][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/XC4O0JHF1H6RSJ5PHWBB49_Auto5342C28D84BE88C14D01E88A47145DBDE.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/3C/XC4O0JHF1H6RSJ5PHWBB49_Auto5.uasset'
+[2022.05.06-21.08.41:983][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV_Auto5
+[2022.05.06-21.08.41:983][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/CXPBMNOSZQRYYMLHTQSQIV_Auto53A74C6B24DB70F78A299AB8EB6D121FA.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/Q4/CXPBMNOSZQRYYMLHTQSQIV_Auto5.uasset'
+[2022.05.06-21.08.41:989][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM_Auto5
+[2022.05.06-21.08.41:989][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/90U99CMEG3X969DGLIKCXM_Auto5F15119ED4C2D4C48CB6DC99EEC719E60.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/QK/90U99CMEG3X969DGLIKCXM_Auto5.uasset'
+[2022.05.06-21.08.41:995][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N_Auto5
+[2022.05.06-21.08.41:995][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MVMWJBFEEBVGDKJCRYQ03N_Auto5E8B8EA0C4EDDFCE53480D1A624E040EA.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/H4/MVMWJBFEEBVGDKJCRYQ03N_Auto5.uasset'
+[2022.05.06-21.08.42:000][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT_Auto5
+[2022.05.06-21.08.42:000][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/J0S4S49B3G5Q1CBEICYVJT_Auto55A47D61444C937705BA73FB5E6F385AE.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/VL/J0S4S49B3G5Q1CBEICYVJT_Auto5.uasset'
+[2022.05.06-21.08.42:006][508]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS_Auto5
+[2022.05.06-21.08.42:006][508]LogSavePackage: Moving 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/MJWKJ5N2XFCJOGCTDDX5TS_Auto5889EA65E4BEE9CDE0939829CCAD47D4C.tmp' to 'C:/Users/runes/Documents/GitHub/UnrealTesting/TimNickTest 5.0/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/73/MJWKJ5N2XFCJOGCTDDX5TS_Auto5.uasset'
+[2022.05.06-21.08.42:007][508]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.059
+[2022.05.06-21.08.42:007][508]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2022.05.06-21.09.40:620][483]Cmd: SELECT NONE
+[2022.05.06-21.09.40:925][501]Cmd: SELECT NONE
+[2022.05.06-21.09.41:132][512]Cmd: SELECT NONE
+[2022.05.06-21.09.41:581][537]Cmd: SELECT NONE
+[2022.05.06-21.09.42:745][602]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-21.09.42:754][602]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-21.09.42:754][602]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-21.09.42:754][602]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.09.42:754][602]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-21.09.42:755][602]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-21.09.42:755][602]LogWorldPartition: Display: GetPartitionedActors took 63 us
+[2022.05.06-21.09.42:755][602]LogWorldPartition: Display: GenerateStreaming took 391 us
+[2022.05.06-21.09.42:755][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-21.09.42:755][602]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 1:09:42 PM)
+[2022.05.06-21.09.42:790][602]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_109', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_108', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_45', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_44', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_107', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_106', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_43', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.09.42:798][602]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_42', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.09.42:799][602]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-21.09.42:799][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009146s)
+[2022.05.06-21.09.42:799][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009228s)
+[2022.05.06-21.09.42:799][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-21.09.42:800][602]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-21.09.42:800][602]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-21.09.42:800][602]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-21.09.42:803][602]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.06-21.09.42:803][602]LogPlayLevel: PIE: World Init took: (0.003383s)
+[2022.05.06-21.09.42:811][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.05.06-21.09.42:813][602]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-21.09.42:813][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-21.09.42:813][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-21.09.42:813][602]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-21.09.42:813][602]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-21.09.42:813][602]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-21.09.42:815][602]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-21.09.42:892][602]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-21.09.42:893][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-21.09.42:893][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-21.09.42:893][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-21.09.42:894][602]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.05.06-21.09.42:894][602]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.05.06-21.09.42:896][602]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.05.06-21.09.42:896][602]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.05.06-21.09.42:896][602]LogInit: FAudioDevice initialized.
+[2022.05.06-21.09.42:896][602]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2022.05.06-21.09.42:905][602]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-21.09.42:908][602]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-17.09.42
+[2022.05.06-21.09.42:908][602]LogWorld: Bringing up level for play took: 0.002417
+[2022.05.06-21.09.42:910][602]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.05.06-21.09.42:913][602]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-21.09.42:913][602]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.09.42:913][602]PIE: Server logged in
+[2022.05.06-21.09.42:914][602]PIE: Play in editor total start time 0.163 seconds.
+[2022.05.06-21.09.55:230][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.09.55:230][146]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.09.55:231][146]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-21.09.55:231][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.09.55:244][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-21.09.55:247][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-21.09.55:257][146]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-21.09.55:257][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.05.06-21.09.55:259][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.05.06-21.09.55:264][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-21.09.55:266][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.05.06-21.09.55:296][147]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.05.06-21.09.58:072][311]Cmd: SELECT NONE
+[2022.05.06-21.09.58:301][325]Cmd: SELECT NONE
+[2022.05.06-21.10.15:013][466]Cmd: DELETE
+[2022.05.06-21.10.15:013][466]Cmd: ACTOR DELETE
+[2022.05.06-21.10.15:016][466]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2022.05.06-21.10.15:034][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.05.06-21.10.15:038][466]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.05.06-21.10.18:503][670]Cmd: TRANSACTION UNDO
+[2022.05.06-21.10.18:503][670]LogEditorTransaction: Undo Delete Elements
+[2022.05.06-21.10.58:074][987]Cmd: SELECT NONE
+[2022.05.06-21.11.21:637][571]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.05.06-21.11.21:646][571]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Display: GetPartitionedActors took 60 us
+[2022.05.06-21.11.21:647][571]LogWorldPartition: Display: GenerateStreaming took 425 us
+[2022.05.06-21.11.21:647][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-21.11.21:647][571]PIE: New page: PIE session: ThirdPersonMap (May 6, 2022, 1:11:21 PM)
+[2022.05.06-21.11.21:647][571]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2022.05.06-21.11.21:656][571]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_109', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.11.21:656][571]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeHeightfieldCollisionComponent_108', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.11.21:656][571]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_45', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.11.21:656][571]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_2_2_0.LandscapeComponent_44', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.11.21:656][571]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_107', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.11.21:657][571]LogLandscape: Warning: ULandscapeHeightfieldCollisionComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeHeightfieldCollisionComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeHeightfieldCollisionComponent_106', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.11.21:657][571]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_43', 7.000000,7.000000 vs 7.000000,7.000000.
+[2022.05.06-21.11.21:657][571]LogLandscape: Warning: LandscapeComponent RelativeLocation disagrees with its section base, attempted automated fix: 'LandscapeComponent /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.LandscapeStreamingProxy_15S7VCSLL0FBZU2AB0ZOQW21R_1_1_2_0.LandscapeComponent_42', 0.000000,7.000000 vs 0.000000,7.000000.
+[2022.05.06-21.11.21:658][571]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-21.11.21:658][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010543s)
+[2022.05.06-21.11.21:658][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.010605s)
+[2022.05.06-21.11.21:658][571]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-21.11.21:659][571]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.05.06-21.11.21:659][571]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-21.11.21:659][571]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-21.11.21:662][571]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.05.06-21.11.21:662][571]LogPlayLevel: PIE: World Init took: (0.003683s)
+[2022.05.06-21.11.21:670][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.05.06-21.11.21:673][571]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-21.11.21:673][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-21.11.21:673][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-21.11.21:673][571]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-21.11.21:673][571]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-21.11.21:673][571]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-21.11.21:676][571]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-21.11.21:753][571]LogAudioMixer: Display: Using Audio Hardware Device Headphones (3- Arctis 7 Game)
+[2022.05.06-21.11.21:754][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-21.11.21:754][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-21.11.21:754][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-21.11.21:754][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.05.06-21.11.21:754][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.05.06-21.11.21:756][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.05.06-21.11.21:756][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.05.06-21.11.21:756][571]LogInit: FAudioDevice initialized.
+[2022.05.06-21.11.21:756][571]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2022.05.06-21.11.21:769][571]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.05.06-21.11.21:771][571]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.05.06-17.11.21
+[2022.05.06-21.11.21:771][571]LogWorld: Bringing up level for play took: 0.002376
+[2022.05.06-21.11.21:773][571]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.05.06-21.11.21:776][571]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=220.000 Y=240.000 Z=102.417
+[2022.05.06-21.11.21:776][571]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-21.11.21:776][571]PIE: Server logged in
+[2022.05.06-21.11.21:777][571]PIE: Play in editor total start time 0.134 seconds.
